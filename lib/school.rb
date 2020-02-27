@@ -2,9 +2,10 @@ class School
 
   ROSTER = {}
 
-  def initialize(school, roster)
+  def initialize(school)
     @school = school
-    ROSTER << roster
+    ROSTER = {}
+    
   end
 
 
