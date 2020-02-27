@@ -13,9 +13,4 @@ class School
     @student = student
   end
 
-  def add_student
-    @student
-  end
-
-
 end
