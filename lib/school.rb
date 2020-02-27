@@ -11,7 +11,9 @@ class School
 
   def add_student(student, student_class)
     @student = student
+    @student << @roster
     @class = student_class
+    @class << @roster
   end
 
 end
